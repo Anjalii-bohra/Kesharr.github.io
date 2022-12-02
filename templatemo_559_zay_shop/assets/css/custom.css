@@ -62,18 +62,56 @@ Custom Css
 }
 
 #bestquality {
-    font-family: 'Niconne', cursive;
+    font-family: 'Great Vibes', cursive;
     font-size: 105px !important;
     font-weight: 200 !important;
+    color: rgb(35, 35, 160);
+}
+
+#sub {
+    padding-left: 10%;
+}
+
+
+/* #sub2 {
+    padding-left: 5%;
+} */
+
+#sub3 {
+    padding-left: 20%;
+}
+
+#EPS {
+    color: rgb(35, 35, 160);
+    font-family: 'Kaushan Script', cursive;
+    padding-left: 5%;
+    padding-top: 10%;
+}
+
+#food {
+    color: rgb(35, 35, 160);
+    font-family: 'Kaushan Script', cursive;
+    padding-left: 20%;
+    padding-top: 5%;
+
 }
 
 #fluid2 {
-    padding-top: 10%;
+    padding-bottom: 30%;
+    justify-content: center;
+    height: 300px;
+
 }
 
 .img-fluid {
     width: 500px;
-    height: 270px;
+    height: 450px;
     align-self: center;
 }
+
+.fluid1 {
+    height: 40%;
+    width: 50%;
+}
+
 /* end */
