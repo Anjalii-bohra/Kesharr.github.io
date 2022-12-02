@@ -109,7 +109,7 @@ Custom Css
     align-self: center;
 }
 
-#fluid1 {
+.fluid1 {
     height: 40%;
     width: 50%;
 }
