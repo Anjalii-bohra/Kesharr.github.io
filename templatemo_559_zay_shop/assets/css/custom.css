@@ -52,6 +52,8 @@ Custom Css
     transform: rotateY(180deg);
 }
 
+/*end of featue product*/
+
 /* -carozol main page- */
 .h1 {
     font-family: 'Roboto', sans-serif;
@@ -70,10 +72,14 @@ Custom Css
     padding-left: 10%;
 }
 
+
+/* #sub2 {
+    padding-left: 5%;
+} */
+
 #sub3 {
     padding-left: 20%;
 }
-
 
 #EPS {
     color: rgb(35, 35, 160);
@@ -94,7 +100,6 @@ Custom Css
     padding-bottom: 30%;
     justify-content: center;
     height: 300px;
-    
 
 }
 
@@ -103,4 +108,5 @@ Custom Css
     height: 450px;
     align-self: center;
 }
+
 /* end */
