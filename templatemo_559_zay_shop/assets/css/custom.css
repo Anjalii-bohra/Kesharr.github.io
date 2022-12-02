@@ -53,3 +53,27 @@ Custom Css
 }
 
 /*end of featue product*/
+
+/* -carozol main page- */
+.h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px !important;
+    font-weight: 500 !important;
+}
+
+#bestquality {
+    font-family: 'Niconne', cursive;
+    font-size: 105px !important;
+    font-weight: 200 !important;
+}
+
+#fluid2 {
+    padding-top: 10%;
+}
+
+.img-fluid {
+    width: 500px;
+    height: 270px;
+    align-self: center;
+}
+/* end */
