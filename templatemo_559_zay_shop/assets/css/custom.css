@@ -49,7 +49,7 @@ Custom Css
     transform: rotateY(180deg);
 }
 
-/* ---------------------------------------------------------------------------- */
+/* ---------------------------carousal---------------------------------------------- */
 
 
 .h1 {
@@ -59,13 +59,38 @@ Custom Css
 }
 
 #bestquality {
-    font-family: 'Niconne', cursive;
+    font-family: 'Great Vibes', cursive;
     font-size: 105px !important;
     font-weight: 200 !important;
+    color: rgb(35, 35, 160);
+}
+
+#sub {
+    padding-left: 10%;
+}
+
+/* #sub2 {
+    padding-left: 5%;
+} */
+
+#EPS {
+    color: rgb(35, 35, 160);
+    font-family: 'Kaushan Script', cursive;
+    padding-left: 5%;
+}
+
+#food {
+    color: rgb(35, 35, 160);
+    font-family: 'Kaushan Script', cursive;
+    padding-left: 10%;
+
 }
 
 #fluid2 {
-    padding-top: 10%;
+    padding-top: 5%;
+    justify-content: center;
+    height: 300px;
+
 }
 
 .img-fluid {
