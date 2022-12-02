@@ -3,6 +3,9 @@ Custom Css
 */
 
 /*featured product */
+body {
+    font-family: 'Alexandria', sans-serif;
+}
 
 .flip-card {
     background-color: transparent;
@@ -52,6 +55,24 @@ Custom Css
     transform: rotateY(180deg);
 }
 
+.h11 {
+    padding-top: 5px;
+    font-family: 'Charm', cursive;
+    font-size: 55px !important;
+    font-weight: 500 !important;
+    color: red;
+    text-decoration: underline;
+}
+
+#fliphead {
+    font-family: 'EB Garamond', serif;
+    /* font-weight: 600; */
+}
+
+#fp1 {
+    padding-left: 50px;
+}
+
 /*end of featue product*/
 
 /* -carozol main page- */
@@ -60,6 +81,8 @@ Custom Css
     font-size: 48px !important;
     font-weight: 500 !important;
 }
+
+
 
 #bestquality {
     font-family: 'Great Vibes', cursive;
@@ -124,38 +147,40 @@ Custom Css
 }
 
 .cardbs {
-    background: white;
-    width: 400px;
-    height: 600px;
+    background: whitesmoke;
+    width: 300px;
+    height: 360px;
     margin: 10px;
     border-radius: 15px;
 }
 
 .cardbs-image {
     height: 200px;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
 }
 
 .bs-1 {
-    margin-left: 40px;
+    margin-left: 20px;
+    height: 100%;
+    width: 80%;
     /* padding-bottom: 500px; */
 }
 
 .bs-2 {
     margin-left: 20px;
     padding-top: 30px;
-    height: 120%;
+    height: 100%;
     width: 80%;
 }
 
 .bs-3 {
-    margin-left: 50px;
+    margin-left: 25px;
     padding-left: 50px;
     /* padding-top: 30px; */
 
-    height: 140%;
+    height: 100%;
     width: 70%;
     /* padding-right: 10px; */
 }
@@ -165,7 +190,7 @@ Custom Css
     /* padding: 50%; */
     /* padding-top: 30px; */
     /* padding-bottom: 0px; */
-    height: 140%;
+    height: 100%;
     width: 70%;
     /* padding-right: 10px; */
 }
@@ -175,8 +200,8 @@ Custom Css
     /* padding: 50%; */
     /* padding-top: 30px; */
 
-    height: 150%;
-    width: 80%;
+    height: 100%;
+    width: 70%;
     /* padding-right: 10px; */
 }
 
@@ -185,7 +210,7 @@ Custom Css
     /* padding: 50%; */
     /* padding-top: 30px; */
 
-    height: 140%;
+    height: 100%;
     width: 70%;
     /* padding-right: 10px; */
 }
@@ -196,19 +221,40 @@ Custom Css
 }
 
 .cardbs p {
-    padding: 10px;
+    padding-left: 10px;
 }
 
 .cardbs:hover {
-    background-color: rgb(15, 15, 14);
-    color: antiquewhite;
+    background-color: rgb(131, 173, 246);
+    color: white;
     cursor: pointer;
-    transition: all 1s ease;
-    transform: scale(1.03);
+    transition: all 0.5s ease;
+    transform: scale(1.05);
 }
 
 .h1 {
     margin: 20px;
 }
+
+.cardbs h4 {
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+}
+
+.cardbs p {
+    text-align: center;
+}
+
+.h10 {
+    padding-top: 50px;
+    font-family: 'Charm', cursive;
+    font-size: 55px !important;
+    font-weight: 500 !important;
+    color: red;
+    text-decoration: underline;
+
+}
+
 
 /* best sellers end */
