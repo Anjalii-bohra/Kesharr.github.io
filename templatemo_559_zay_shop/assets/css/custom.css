@@ -262,6 +262,11 @@ body {
     background-color: black;
     border-radius: 12px;
     margin-left: 140px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    color: white;
 }
 
 /* best sellers end */
