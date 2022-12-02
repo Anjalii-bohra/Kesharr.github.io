@@ -374,3 +374,16 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 .vc_column_container.col-md-4 {
     padding-left: 50px;
 }
+/*-------------------------------------------------------------------------------------------------------------------*/
+.porto-sicon-box.left-icon, .porto-sicon-box.right-icon {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.porto-sicon-box {
+    margin-bottom: 8px !important;
+}
+
+.porto-sicon-body{
+    margin-left: 10px;
+}
