@@ -263,10 +263,13 @@ body {
     border-radius: 12px;
     margin-left: 140px;
     margin-top: 20px;
+
 }
 
 .btn:hover {
     color: white;
+    transition: all 0.5s ease;
+    transform: scale(1.05);
 }
 
 /* best sellers end */
