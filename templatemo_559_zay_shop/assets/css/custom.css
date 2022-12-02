@@ -256,5 +256,12 @@ body {
 
 }
 
+.btn {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    margin-left: 140px;
+}
 
 /* best sellers end */
