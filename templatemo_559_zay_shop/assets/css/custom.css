@@ -1,6 +1,9 @@
 /*
 Custom Css
 */
+
+/*featured product */
+
 .flip-card {
     background-color: transparent;
     width: 300px;
@@ -49,9 +52,14 @@ Custom Css
     transform: rotateY(180deg);
 }
 
+<<<<<<< HEAD
 /* ---------------------------carousal---------------------------------------------- */
 
+=======
+/*end of featue product*/
+>>>>>>> 1db1d8beed2f215b456b119fa75bc6c48ddb549e
 
+/* -carozol main page- */
 .h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 48px !important;
@@ -98,3 +106,4 @@ Custom Css
     height: 270px;
     align-self: center;
 }
+/* end */
