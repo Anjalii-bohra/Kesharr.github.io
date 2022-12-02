@@ -1,6 +1,9 @@
 /*
 Custom Css
 */
+
+/*featured product */
+
 .flip-card {
     background-color: transparent;
     width: 300px;
@@ -48,3 +51,5 @@ Custom Css
     color: black;
     transform: rotateY(180deg);
 }
+
+/*end of featue product*/
