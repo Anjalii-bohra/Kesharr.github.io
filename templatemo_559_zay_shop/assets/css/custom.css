@@ -109,4 +109,9 @@ Custom Css
     align-self: center;
 }
 
+#fluid1 {
+    height: 40%;
+    width: 50%;
+}
+
 /* end */
