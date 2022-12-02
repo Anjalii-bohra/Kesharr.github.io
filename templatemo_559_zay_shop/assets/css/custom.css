@@ -126,28 +126,28 @@ Custom Css
 .cardbs {
     background: white;
     width: 400px;
-    height: 500px;
+    height: 600px;
     margin: 10px;
     border-radius: 15px;
 }
 
 .cardbs-image {
-    /* background-color: aqua; */
-    height: 170px;
-    margin-bottom: 15px;
+    height: 200px;
+    margin-bottom: 100px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
 }
 
 .bs-1 {
-    background-image: url();
+    margin-left: 40px;
+    /* padding-bottom: 500px; */
 }
 
 .bs-2 {
+    margin-left: 20px;
     padding-top: 30px;
-    height: 140%;
-    width: 100%;
-    /* padding-bottom: 0; */
+    height: 120%;
+    width: 80%;
 }
 
 .bs-3 {
@@ -156,7 +156,7 @@ Custom Css
     /* padding-top: 30px; */
 
     height: 140%;
-    width: 50%;
+    width: 70%;
     /* padding-right: 10px; */
 }
 
@@ -164,8 +164,8 @@ Custom Css
     margin-left: 50px;
     /* padding: 50%; */
     /* padding-top: 30px; */
-
-    height: 120%;
+    /* padding-bottom: 0px; */
+    height: 140%;
     width: 70%;
     /* padding-right: 10px; */
 }
@@ -175,10 +175,21 @@ Custom Css
     /* padding: 50%; */
     /* padding-top: 30px; */
 
+    height: 150%;
+    width: 80%;
+    /* padding-right: 10px; */
+}
+
+.bs-6 {
+    margin-left: 50px;
+    /* padding: 50%; */
+    /* padding-top: 30px; */
+
     height: 140%;
     width: 70%;
     /* padding-right: 10px; */
 }
+
 
 .cardbs h2 {
     padding: 10px;
@@ -196,5 +207,8 @@ Custom Css
     transform: scale(1.03);
 }
 
+.h1 {
+    margin: 20px;
+}
 
 /* best sellers end */
