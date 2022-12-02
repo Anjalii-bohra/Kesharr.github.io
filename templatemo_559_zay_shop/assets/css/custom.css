@@ -50,9 +50,17 @@ Custom Css
 }
 
 /* ---------------------------------------------------------------------------- */
+
+
 .h1 {
-    font-family: 'Courgette', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 48px !important;
+    font-weight: 500 !important;
+}
+
+#bestquality {
+    font-family: 'Niconne', cursive;
+    font-size: 105px !important;
     font-weight: 200 !important;
 }
 
@@ -61,7 +69,7 @@ Custom Css
 }
 
 .img-fluid {
-    width: 850px;
+    width: 500px;
     height: 270px;
     align-self: center;
 }
