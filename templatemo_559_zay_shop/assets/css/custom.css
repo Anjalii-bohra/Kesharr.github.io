@@ -93,14 +93,17 @@ body {
 
 #sub {
     padding-left: 10%;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
 }
 
 
-/* #sub2 {
-    padding-left: 5%;
-} */
+#sub2 {
+    font-family: 'Poppins', sans-serif;
+}
 
 #sub3 {
+    font-family: 'Poppins', sans-serif;
     padding-left: 20%;
 }
 
@@ -261,7 +264,7 @@ body {
     color: white;
     background-color: black;
     border-radius: 12px;
-    margin-left: 140px;
+    margin-left: 170px;
     margin-top: 20px;
 
 }
@@ -273,3 +276,11 @@ body {
 }
 
 /* best sellers end */
+
+
+/* navbar */
+
+ul,
+li {
+    font-family: 'Poppins';
+}
