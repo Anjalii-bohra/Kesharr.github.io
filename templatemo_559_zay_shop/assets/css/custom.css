@@ -288,6 +288,5 @@ li {
 /* ---------Products------------ */
 
 #pcard {
-    height: 300px;
-    grid-row: none;
+    height: 200px;
 }
