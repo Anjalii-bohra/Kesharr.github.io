@@ -307,7 +307,9 @@ figure {
 
 img,
 svg {
-    vertical-align: middle
+    vertical-align: middle;
+    height: 95%;
+    width: 95%;
 }
 
 table {
@@ -4290,7 +4292,7 @@ fieldset:disabled .btn {
     display: block;
     padding: .5rem 1rem;
     text-decoration: none;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out
+    transition: var(--bs-red) .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out
 }
 
 @media (prefers-reduced-motion:reduce) {
@@ -4378,7 +4380,12 @@ fieldset:disabled .btn {
     align-items: center;
     justify-content: space-between;
     padding-top: .5rem;
-    padding-bottom: .5rem
+    /* padding-bottom: .5rem; */
+
+}
+
+#nav2 {
+    padding-top: 0em;
 }
 
 .navbar>.container,
