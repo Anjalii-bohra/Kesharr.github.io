@@ -4772,7 +4772,8 @@ fieldset:disabled .btn {
 
 .card-body {
     flex: 1 1 auto;
-    padding: 1rem 1rem
+    padding: 1rem 1rem;
+    padding-top: 0.9px;
 }
 
 .card-title {
@@ -8149,7 +8150,7 @@ fieldset:disabled .btn {
 }
 
 .rounded-0 {
-    border-radius: 0 !important
+    border-radius: 10px 10px 10px 10px;
 }
 
 .rounded-1 {
