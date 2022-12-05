@@ -348,11 +348,6 @@ li {
 
 /* ------------single page------------- */
 
-/* #swipe {
-    width: 100px;
-    height: 150px;
-} */
-
 .description {
     text-align: left;
 }
@@ -381,3 +376,31 @@ li {
 .extra {
     text-align: left;
 }
+<<<<<<< Updated upstream
+=======
+
+ul {
+    margin-bottom: 0px;
+}
+
+#swipe {
+    height: 100%;
+    width: 100%;
+}
+
+#related {
+    height: 100%;
+    width: 100%;
+}
+
+.rmbtn {
+    background-color: black;
+    color: white;
+    padding: 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: none;
+
+}
+>>>>>>> Stashed changes
