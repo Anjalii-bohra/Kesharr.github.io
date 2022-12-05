@@ -93,12 +93,12 @@ div {
 }
 
 .bg-success {
-  background-color: #59ab6e !important;
+  background-color: #3b5998 !important;
 }
 
 .btn-success {
   background-color: #59ab6e !important;
-  border-color: #56ae6c !important;
+  border-color:  #3b5998  !important;
 }
 
 .pagination .page-link:hover {
