@@ -411,3 +411,8 @@ li {
 .rmbtn:hover {
     background-color: rgb(85, 83, 83);
 }
+
+.h2 {
+    padding-top: 15px;
+
+}
