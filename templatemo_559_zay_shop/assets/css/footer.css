@@ -329,6 +329,14 @@ li,
     margin-bottom: 15px;
 }
 
+.foottag {
+    text-decoration: none;
+}
+
+.footspace {
+    padding-bottom: 200px;
+}
+
 .share-links {
     vertical-align: middle;
 }
