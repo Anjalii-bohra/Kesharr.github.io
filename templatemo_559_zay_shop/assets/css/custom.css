@@ -287,6 +287,10 @@ li {
 
 /* ---------Products------------ */
 
+#kesharshop {
+    width: 105.5%;
+}
+
 #pcard {
     height: 200px;
 }
@@ -376,4 +380,8 @@ li {
 
 .extra {
     text-align: left;
+}
+
+    {
+    height: 150px;
 }
