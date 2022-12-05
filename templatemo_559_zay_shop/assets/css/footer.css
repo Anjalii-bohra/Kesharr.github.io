@@ -329,9 +329,7 @@ li,
     margin-bottom: 15px;
 }
 
-.foottag {
-    text-decoration: none;
-}
+
 
 
 
@@ -485,4 +483,10 @@ li,
         flex: 0 0 25%;
         max-width: 25%;
     }
+}
+
+#foottag {
+    text-decoration: none;
+    color: #fff;
+    
 }
