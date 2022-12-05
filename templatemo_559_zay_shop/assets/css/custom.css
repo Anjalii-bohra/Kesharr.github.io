@@ -340,3 +340,40 @@ li {
 .pb-3 {
     display: flex;
 }
+
+
+/* ------------single page------------- */
+
+/* #swipe {
+    width: 100px;
+    height: 150px;
+} */
+
+.description {
+    text-align: left;
+}
+
+.features {
+    text-align: left;
+}
+
+.sibtn {
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10px;
+    background-color: rgb(25, 25, 145);
+    color: white;
+    border: none;
+}
+
+.sibtn:hover {
+    background-color: rgb(84, 84, 220);
+}
+
+.list-inline-item {
+    display: inline-flex;
+}
+
+.extra {
+    text-align: left;
+}
