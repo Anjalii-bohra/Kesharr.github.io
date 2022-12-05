@@ -146,10 +146,10 @@
                     <div class="row">
                         <!--Start Controls-->
                         <div class="col-1 align-self-center">
-                            <a href="#multi-item-example" role="button" data-bs-slide="prev">
+                            <!-- <a href="#multi-item-example" role="button" data-bs-slide="prev">
                                 <i class="text-dark fas fa-chevron-left"></i>
                                 <span class="sr-only">Previous</span>
-                            </a>
+                            </a> -->
                         </div>
                         <!--End Controls-->
                         <!--Start Carousel Wrapper-->
@@ -159,89 +159,42 @@
                             <div class="carousel-inner product-links-wap" role="listbox">
 
                                 <!--First slide-->
-                                <div class="carousel-item active" id="swipe">
+                                <div class="carousel-item active">
                                     <div class="row">
                                         <div class="col-4">
                                             <a href="#">
                                                 <img class="card-img img-fluid"
-                                                    src="./images/Cream-Biscuit-003-300x300.png" alt="Product Image 1">
+                                                    src="./images/Cream-Biscuit-003-300x300.png" alt="Product Image 1"
+                                                    id="swipe">
                                             </a>
                                         </div>
                                         <div class="col-4">
                                             <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/product_single_02.jpg"
-                                                    alt="Product Image 2">
+                                                <img class="card-img img-fluid"
+                                                    src="./images/Cream-Biscuit-002-300x300.png" alt="Product Image 2"
+                                                    id="swipe">
                                             </a>
                                         </div>
                                         <div class="col-4">
                                             <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/product_single_03.jpg"
-                                                    alt="Product Image 3">
+                                                <img class="card-img img-fluid"
+                                                    src="./images/Cream-Biscuit-001-600x600.png" alt="Product Image 3"
+                                                    id="swipe">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
                                 <!--/.First slide-->
-
-                                <!--Second slide-->
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/product_single_04.jpg"
-                                                    alt="Product Image 4">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/product_single_05.jpg"
-                                                    alt="Product Image 5">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/product_single_06.jpg"
-                                                    alt="Product Image 6">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--/.Second slide-->
-
-                                <!--Third slide-->
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/product_single_07.jpg"
-                                                    alt="Product Image 7">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/product_single_08.jpg"
-                                                    alt="Product Image 8">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/product_single_09.jpg"
-                                                    alt="Product Image 9">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--/.Third slide-->
                             </div>
                             <!--End Slides-->
                         </div>
                         <!--End Carousel Wrapper-->
                         <!--Start Controls-->
                         <div class="col-1 align-self-center">
-                            <a href="#multi-item-example" role="button" data-bs-slide="next">
+                            <!-- <a href="#multi-item-example" role="button" data-bs-slide="next">
                                 <i class="text-dark fas fa-chevron-right"></i>
                                 <span class="sr-only">Next</span>
-                            </a>
+                            </a> -->
                         </div>
                         <!--End Controls-->
                     </div>
@@ -302,7 +255,7 @@
                             </div>
                             <br>
                             <div class="extra">
-                                <ul class="list-inline">
+                                <ul class="list-inline" id="proul">
                                     <li class="list-inline-item">
                                         <h6 class="text-dark"><b>AVAILABILITY:</b></h6>
                                     </li>
@@ -311,7 +264,7 @@
                                     </li>
                                 </ul>
 
-                                <ul class="list-inline">
+                                <ul class="list-inline" id="proul">
                                     <li class="list-inline-item">
                                         <h6 class="text-dark"><b>SKU:</b></h6>
                                     </li>
@@ -320,12 +273,12 @@
                                     </li>
                                 </ul>
 
-                                <ul class="list-inline">
+                                <ul class="list-inline" id="proul">
                                     <li class="list-inline-item">
                                         <h6 class="text-dark"><b>CATEGORIES:</b></h6>
                                     </li>
                                     <li class="list-inline-item">
-                                        <p class="text-danger">BISCUITS,CREAM BISCUITS</p>
+                                        <p class="text-danger">Biscuits, Cream Biscuit</p>
                                     </li>
                                 </ul>
                             </div>
@@ -356,8 +309,9 @@
                 <div class="p-2 pb-3">
                     <div class="product-wap card rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="./images/Bournbon-Biscuit-002-300x300.png">
-                            <div
+                            <img class="card-img rounded-0 img-fluid" src="./images/Bournbon-Biscuit-002-300x300.png"
+                                id="related">
+                            <!-- <div
                                 class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white" href="shop-single.html"><i
@@ -367,11 +321,11 @@
                                     <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i
                                                 class="fas fa-cart-plus"></i></a></li>
                                 </ul>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Red Clothing</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                            <a href="shop-single.html" class="h3 text-decoration-none">Bourbon</a>
+                            <!-- <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                 <li>M/L/X/XL</li>
                                 <li class="pt-2">
                                     <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
@@ -384,7 +338,7 @@
                                     <span
                                         class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
                                 </li>
-                            </ul>
+                            </ul> -->
                             <ul class="list-unstyled d-flex justify-content-center mb-1">
                                 <li>
                                     <i class="text-warning fa fa-star"></i>
@@ -394,7 +348,10 @@
                                     <i class="text-muted fa fa-star"></i>
                                 </li>
                             </ul>
-                            <p class="text-center mb-0">$20.00</p>
+                            <!-- <p class="text-center mb-0">$20.00</p> -->
+                            <div class="col d-grid">
+                                <button type="submit" class="rmbtn" name="submit" value="Inquiry">Read More</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -402,8 +359,8 @@
                 <div class="p-2 pb-3">
                     <div class="product-wap card rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="./images/asset 21.png">
-                            <div
+                            <img class="card-img rounded-0 img-fluid" src="./images/asset 21.png" id="related">
+                            <!-- <div
                                 class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white" href="shop-single.html"><i
@@ -413,11 +370,11 @@
                                     <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i
                                                 class="fas fa-cart-plus"></i></a></li>
                                 </ul>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">White Shirt</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                            <a href="shop-single.html" class="h3 text-decoration-none">Shortbread</a>
+                            <!-- <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                 <li>M/L/X/XL</li>
                                 <li class="pt-2">
                                     <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
@@ -430,7 +387,7 @@
                                     <span
                                         class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
                                 </li>
-                            </ul>
+                            </ul> -->
                             <ul class="list-unstyled d-flex justify-content-center mb-1">
                                 <li>
                                     <i class="text-warning fa fa-star"></i>
@@ -440,7 +397,10 @@
                                     <i class="text-muted fa fa-star"></i>
                                 </li>
                             </ul>
-                            <p class="text-center mb-0">$25.00</p>
+                            <!-- <p class="text-center mb-0">$25.00</p> -->
+                            <div class="col d-grid">
+                                <button type="submit" class="rmbtn" name="submit" value="Inquiry">Read More</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -448,8 +408,8 @@
                 <div class="p-2 pb-3">
                     <div class="product-wap card rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="./images/asset 25.png">
-                            <div
+                            <img class="card-img rounded-0 img-fluid" src="./images/asset 25.png" id="related">
+                            <!-- <div
                                 class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white" href="shop-single.html"><i
@@ -459,11 +419,11 @@
                                     <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i
                                                 class="fas fa-cart-plus"></i></a></li>
                                 </ul>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                            <a href="shop-single.html" class="h3 text-decoration-none">Nice Biscuit</a>
+                            <!-- <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                 <li>M/L/X/XL</li>
                                 <li class="pt-2">
                                     <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
@@ -476,7 +436,7 @@
                                     <span
                                         class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
                                 </li>
-                            </ul>
+                            </ul> -->
                             <ul class="list-unstyled d-flex justify-content-center mb-1">
                                 <li>
                                     <i class="text-warning fa fa-star"></i>
@@ -486,7 +446,10 @@
                                     <i class="text-warning fa fa-star"></i>
                                 </li>
                             </ul>
-                            <p class="text-center mb-0">$45.00</p>
+                            <!-- <p class="text-center mb-0">$45.00</p> -->
+                            <div class="col d-grid">
+                                <button type="submit" class="rmbtn" name="submit" value="Inquiry">Read More</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -494,8 +457,9 @@
                 <div class="p-2 pb-3">
                     <div class="product-wap card rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="./images/asset 22.png">
-                            <div
+                            <img class="card-img rounded-0 img-fluid" src="./images/gluten-Free-biscuit-002-300x300.png"
+                                id="related">
+                            <!-- <div
                                 class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white" href="shop-single.html"><i
@@ -505,11 +469,11 @@
                                     <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i
                                                 class="fas fa-cart-plus"></i></a></li>
                                 </ul>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Black Fashion</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                            <a href="shop-single.html" class="h3 text-decoration-none">Gluten Free</a>
+                            <!-- <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                 <li>M/L/X/XL</li>
                                 <li class="pt-2">
                                     <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
@@ -522,7 +486,7 @@
                                     <span
                                         class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
                                 </li>
-                            </ul>
+                            </ul> -->
                             <ul class="list-unstyled d-flex justify-content-center mb-1">
                                 <li>
                                     <i class="text-warning fa fa-star"></i>
@@ -532,12 +496,15 @@
                                     <i class="text-muted fa fa-star"></i>
                                 </li>
                             </ul>
-                            <p class="text-center mb-0">$60.00</p>
+                            <!-- <p class="text-center mb-0">$60.00</p> -->
+                            <div class="col d-grid">
+                                <button type="submit" class="rmbtn" name="submit" value="Inquiry">Read More</button>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="p-2 pb-3">
+                <!-- <div class="p-2 pb-3">
                     <div class="product-wap card rounded-0">
                         <div class="card rounded-0">
                             <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
@@ -903,7 +870,7 @@
                             <p class="text-center mb-0">$300.00</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
             </div>
 
@@ -1010,7 +977,7 @@
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2399">
                                             <a href="shop.html">Products</a>
                                         </li>
-                                      <li id="menu-item-2397"
+                                        <li id="menu-item-2397"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2397">
                                             <a href="contact.html">Contact Us</a>
                                         </li>
