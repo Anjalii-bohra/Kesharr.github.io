@@ -281,7 +281,7 @@ li,
 }
 
 #footer ul.list li {
-    margin-bottom: 5px;
+    margin-bottom: 18px;
 }
 
 #footer,
@@ -333,9 +333,7 @@ li,
     text-decoration: none;
 }
 
-.footspace {
-    padding-bottom: 200px;
-}
+
 
 .share-links {
     vertical-align: middle;
@@ -455,6 +453,7 @@ li,
     align-items: center;
     justify-content: space-between;
 }
+
 
 @media (max-width: 991px) {
     #footer .footer-bottom .container {
