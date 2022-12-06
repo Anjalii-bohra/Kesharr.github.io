@@ -416,3 +416,8 @@ li {
     padding-top: 15px;
 
 }
+
+.read {
+    text-decoration: none;
+    font-size: 15px !important;
+}
