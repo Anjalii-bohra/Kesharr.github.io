@@ -25,10 +25,10 @@ connectedCallback(){
         </div>
     </div>
 </nav>
-// <!-- Close Top Nav -->
+ <!-- Close Top Nav -->
 
 
-// <!-- Header -->
+ <!-- Header -->
 <nav class="navbar navbar-expand-lg navbar-light shadow" id="nav2">
     <div class="container d-flex justify-content-between align-items-center">
 
