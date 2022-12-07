@@ -352,13 +352,17 @@
                                     <ul class="contact-details list list-icons">
                                         <li class="footspace"><i class="far fa-dot-circle"></i>
                                             <strong>Address:</strong> <span>Keshar
-                                                Enterprises 2B1, Sarabhai Society, Sarabhai Road, B/H. Pandya Eye
-                                                Hospital,
-                                                Vadodara. Gujarat, India.</span></li>
-                                        <li class="footspace"><i class="fab fa-whatsapp"></i> <strong>Phone:</strong>
+                                                Enterprises 2B1, Sarabhai Society, Sarabhai Road, B/H.
+                                                Pandya Eye Hospital, Vadodara. Gujarat, India.</span>
+                                        </li>
+                                        <li class="footspace"><i class="fab fa-whatsapp"></i>
+                                            <strong>Phone:</strong>
                                             <span>+91 99043
-                                                99998</span></li>
+                                                99998</span>
+                                        </li>
+
                                         <li class="footspace"><i class="far fa-envelope"></i> <strong>Email:</strong>
+
                                             <span><a
                                                     href="mailto:sales@kesharenterprises.com">sales@kesharenterprises.com</a></span>
                                         </li>
@@ -461,45 +465,43 @@
         </div>
     </div>
 
+    <!-- End Footer -->
+    <!-- Start Popup-->
+    <div id="popup" class="popup">
+        <img src="./images/mailimg2.png" class="mailicon">
+
+        <form>
+            <h2>Inquire Now</h2>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="number" placeholder="Phone Number">
+            <textarea type="textarea" cols="30" rows="4" placeholder="Your Message"></textarea>
+            <button> Send</button>
+        </form>
+        <a href="#" onclick="toggle()">Close</a>
+
+
     </div>
+    <script type="text/javascript">
+        function toggle() {
+            var blur1 = document.getElementById("blur");
 
-        <!-- End Footer -->
-        <!-- Start Popup-->
-        <div id="popup" class="popup">
-            <img src="./images/mailimg2.png" class="mailicon">
+            blur1.classList.toggle('active');
 
-            <form>
-                <h2>Inquire Now</h2>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <input type="number" placeholder="Phone Number">
-                <textarea type="textarea" cols="30" rows="4" placeholder="Your Message"></textarea>
-                <button> Send</button>
-            </form>
-            <a href="#" onclick="toggle()">Close</a>
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active');
 
 
-        </div>
-        <script type="text/javascript">
-            function toggle() {
-                var blur1 = document.getElementById("blur");
-
-                blur1.classList.toggle('active');
-
-                var popup = document.getElementById('popup');
-                popup.classList.toggle('active');
-
-
-            }
-        </script>
-        <!--End Popup-->
-        <!-- Start Script -->
-        <script src="assets/js/jquery-1.11.0.min.js"></script>
-        <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/js/templatemo.js"></script>
-        <script src="assets/js/custom.js"></script>
-        <!-- End Script -->
+        }
+    </script>
+    <!--End Popup-->
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- End Script -->
 </body>
 
 </html>
