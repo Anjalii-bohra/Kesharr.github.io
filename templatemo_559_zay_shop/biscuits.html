@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/templatemo.css">
     <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/popup.css">
 
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet"
@@ -21,7 +22,8 @@
 
 </head>
 
-<body>
+<body >
+<div id="blur">
     <!-- Start Top Nav -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
         <div class="container text-light">
@@ -312,8 +314,9 @@
                                     <button class="readmore"><a href="cream.html" class="read">
                                             Read More
                                         </a></button>
-                                    <button class="inquire"><a href="" class="read">
-                                            Send Inquiry</a>
+                                
+                                    <button class="inquire" onclick="toggle()">
+                                        Send Inquiry
                                     </button>
                                 </div>
                             </div>
@@ -366,8 +369,8 @@
                                     <button class="readmore"><a href="bourbon.html" class="read">
                                             Read More</a>
                                     </button>
-                                    <button class="inquire"><a href="" class="read">
-                                            Send Inquiry</a>
+                                    <button class="inquire" onclick="toggle()">
+                                        Send Inquiry
                                     </button>
                                 </div>
                             </div>
@@ -420,8 +423,8 @@
                                     <button class="readmore"><a href="glutenfree.html" class="read">
                                             Read More</a>
                                     </button>
-                                    <button class="inquire"><a href="" class="read">
-                                            Send Inquiry</a>
+                                    <button class="inquire" onclick="toggle()">
+                                        Send Inquiry
                                     </button>
                                 </div>
                             </div>
@@ -475,8 +478,8 @@
                                     <button class="readmore"><a href="maria.html" class="read">
                                             Read More</a>
                                     </button>
-                                    <button class="inquire"><a href="" class="read">
-                                            Send Inquiry</a>
+                                    <button class="inquire" onclick="toggle()">
+                                        Send Inquiry
                                     </button>
                                 </div>
                             </div>
@@ -530,8 +533,8 @@
                                     <button class="readmore"><a href="milkglucose.html" class="read">
                                             Read More</a>
                                     </button>
-                                    <button class="inquire"><a href="" class="read">
-                                            Send Inquiry</a>
+                                    <button class="inquire" onclick="toggle()">
+                                        Send Inquiry
                                     </button>
                                 </div>
                             </div>
@@ -585,8 +588,8 @@
                                     <button class="readmore"><a href="nice.html" class="read">
                                             Read More
                                     </button>
-                                    <button class="inquire"><a href="" class="read">
-                                            Send Inquiry</a>
+                                    <button class="inquire" onclick="toggle()">
+                                        Send Inquiry
                                     </button>
                                 </div>
                             </div>
@@ -638,8 +641,8 @@
                                     <button class="readmore"><a href="salty.html" class="read">
                                             Read More</a>
                                     </button>
-                                    <button class="inquire"><a href="" class="read">
-                                            Send Inquiry</a>
+                                    <button class="inquire" onclick="toggle()">
+                                        Send Inquiry
                                     </button>
                                 </div>
                             </div>
@@ -692,8 +695,8 @@
                                     <button class="readmore"><a href="shortbread.html" class="read">
                                             Read More</a>
                                     </button>
-                                    <button class="inquire"><a href="" class="read">
-                                            Send Inquiry</a>
+                                    <button class="inquire" onclick="toggle()">
+                                        Send Inquiry
                                     </button>
                                 </div>
                             </div>
@@ -747,8 +750,8 @@
                                     <button class="readmore"><a href="sweetsalty.html" class="read">
                                             Read More</a>
                                     </button>
-                                    <button class="inquire"><a href="" class="read">
-                                            Send Inquiry</a>
+                                    <button class="inquire" onclick="toggle()">
+                                        Send Inquiry
                                     </button>
                                 </div>
                             </div>
@@ -1014,7 +1017,38 @@
     </div>
 
     </div>
+</div>
     <!-- End Footer -->
+
+    <!-- Start Popup-->
+    <div id="popup" class="popup">
+        <img src="./images/mailimg2.png" class="mailicon">
+        
+         <form>
+            <h2>Contact Us</h2>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="number" placeholder="Phone Number">
+            <textarea type="textarea" cols="30"  rows="4" placeholder="Your Message"></textarea>
+             <button> Send</button>
+        </form>
+         <a href="#" onclick="toggle()">Close</a>
+
+
+    </div>
+    <script type="text/javascript">
+        function toggle(){
+            var blur1 = document.getElementById("blur");
+
+            blur1.classList.toggle('active');
+           
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active');
+            
+
+        }
+    </script>
+    <!--End Popup-->
 
     <!-- Start Script -->
     <script src="assets/js/jquery-1.11.0.min.js"></script>
