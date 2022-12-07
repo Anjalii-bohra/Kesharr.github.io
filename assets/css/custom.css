@@ -426,15 +426,16 @@ li {
     text-decoration: none;
 }
 
+/*----aboutus----- */
+
 .ourorigin {
     font-family: 'Major Mono Display', monospace;
+
 }
 
 #back {
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background: rgba(59, 89, 152, 0.7);
+
+    background: #d9d9d9;
 }
 
 .parent {
@@ -455,13 +456,27 @@ li {
 .item2006,
 .item2007 {
 
-    border-radius: 10%;
+    border-radius: 20%;
     margin: 5px;
     background: #fff;
     color: black;
     text-align: center;
     line-height: 50px;
     font-weight: 600;
+}
+
+.item2002:hover,
+.item2003:hover,
+.item2004:hover,
+.item2005:hover,
+.item2006:hover,
+.item2007:hover {
+
+    /* background-color: black;
+    color: #fff; */
+    padding: 5px;
+    transition: all 0.5s ease;
+    transform: scale(1.03);
 }
 
 
@@ -498,4 +513,28 @@ li {
 .example-basis .item2007 {
     width: 410px;
     /* margin-left: 350px; */
+}
+
+#abtimg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: none;
+    padding-left: none;
+}
+
+/* #blocks {
+    background-color: rgb(224, 223, 223);
+    width: 100%;
+    height: 100%;
+    margin-left: none !important;
+    margin-right: none !important;
+    padding-left: none !important;
+    padding-right: none !important;
+} */
+
+.box {
+    background-color: #fff;
 }
