@@ -425,3 +425,77 @@ li {
 .foottag {
     text-decoration: none;
 }
+
+.ourorigin {
+    font-family: 'Major Mono Display', monospace;
+}
+
+#back {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background: rgba(59, 89, 152, 0.7);
+}
+
+.parent {
+    /* background-color: lightgray; */
+    /* background: #3b5998; */
+    /* border: 2px solid lightcoral; */
+    width: 100%;
+
+
+    padding: 20px;
+    align-items: center;
+}
+
+.item2002,
+.item2003,
+.item2004,
+.item2005,
+.item2006,
+.item2007 {
+
+    border-radius: 10%;
+    margin: 5px;
+    background: #fff;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+
+.example-basis .parent {
+    display: flex;
+    flex-direction: column;
+}
+
+.example-basis .item2002 {
+    width: 500px;
+    /* margin-left: 350px; */
+}
+
+.example-basis .item2003 {
+    width: 400px;
+    /* margin-left: 350px; */
+}
+
+.example-basis .item2004 {
+    width: 445px;
+    /* margin-left: 350px; */
+}
+
+.example-basis .item2005 {
+    width: 390px;
+    /* margin-left: 350px; */
+}
+
+.example-basis .item2006 {
+    width: 480px;
+    /* margin-left: 350px; */
+}
+
+.example-basis .item2007 {
+    width: 410px;
+    /* margin-left: 350px; */
+}
