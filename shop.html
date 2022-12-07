@@ -13,562 +13,592 @@
     <link rel="stylesheet" href="assets/css/templatemo.css">
     <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/popup.css">
+
 
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-  
+
 </head>
 
 <body>
-    <!-- Start Top Nav -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
-        <div class="container text-light">
-            <div class="w-100 d-flex justify-content-between">
-                <div>
-                    <i class="fa fa-envelope mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none"
-                        href="mailto:sales@kesharenterprises.com">sales@kesharenterprises.com</a>
-                    <i class="fa fa-phone mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:+91-9904399998">+91-9904399998</a>
+    <div id="blur">
+
+        <!-- Start Top Nav -->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+            <div class="container text-light">
+                <div class="w-100 d-flex justify-content-between">
+                    <div>
+                        <i class="fa fa-envelope mx-2"></i>
+                        <a class="navbar-sm-brand text-light text-decoration-none"
+                            href="mailto:sales@kesharenterprises.com">sales@kesharenterprises.com</a>
+                        <i class="fa fa-phone mx-2"></i>
+                        <a class="navbar-sm-brand text-light text-decoration-none"
+                            href="tel:+91-9904399998">+91-9904399998</a>
+                    </div>
+                    <div>
+                        <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i
+                                class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                        <a class="text-light" href="https://www.instagram.com/" target="_blank"><i
+                                class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                        <a class="text-light" href="https://twitter.com/" target="_blank"><i
+                                class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                        <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i
+                                class="fab fa-linkedin fa-sm fa-fw"></i></a>
+                    </div>
                 </div>
-                <div>
-                    <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i
-                            class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i
-                            class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://twitter.com/" target="_blank"><i
-                            class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i
-                            class="fab fa-linkedin fa-sm fa-fw"></i></a>
+            </div>
+        </nav>
+        <!-- Close Top Nav -->
+
+        <!-- Modal -->
+        <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="w-100 pt-1 mb-5 text-right">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
+                <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                        <button type="submit" class="input-group-text bg-success text-light">
+                            <i class="fa fa-fw fa-search text-white"></i>
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
-    </nav>
-    <!-- Close Top Nav -->
 
-    <!-- Modal -->
-    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="w-100 pt-1 mb-5 text-right">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <form action="" method="get" class="modal-content modal-body border-0 p-0">
-                <div class="input-group mb-2">
-                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
-                    <button type="submit" class="input-group-text bg-success text-light">
-                        <i class="fa fa-fw fa-search text-white"></i>
-                    </button>
-                </div>
-            </form>
+
+        <div class="d-flex" id="kesharshop">
+            <img src="./images/kesharshop5.png">
         </div>
-    </div>
+        <!-- Start Content -->
+        <div class="container py-5" id="maincontent">
+            <div class="row">
 
+                <div class="col-lg-3">
+                    <h1 class="h2 pb-4"><b>Categories</b></h1>
+                    <ul class="list-unstyled templatemo-accordion">
+                        <span class="pb-3">
+                            <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
+                                href="featured.html">
+                                Featured Products
+                                <!-- <i class="fa fa-fw fa-chevron-circle-down mt-1"></i> -->
+                            </a>
 
-    <div class="d-flex" id="kesharshop">
-        <img src="./images/kesharshop5.png">
-    </div>
-    <!-- Start Content -->
-    <div class="container py-5" id="maincontent">
-        <div class="row">
+                        </span>
+                        <span class="pb-3">
+                            <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
+                                href="topselling.html">
+                                Top Selling Products
+                                <!-- <i class="fa fa-fw fa-chevron-circle-down mt-1"></i> -->
+                            </a>
 
-            <div class="col-lg-3">
-                <h1 class="h2 pb-4"><b>Categories</b></h1>
-                <ul class="list-unstyled templatemo-accordion">
-                    <span class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
-                            href="biscuits.html">
-                            Biscuits
-                            <!-- <i class="fa fa-fw fa-chevron-circle-down mt-1"></i> -->
-                        </a>
+                        </span>
+                        <span class="pb-3">
+                            <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
+                                href="latest.html">
+                                Latest Products
+                                <!-- <i class="fa fa-fw fa-chevron-circle-down mt-1"></i> -->
+                            </a>
 
-                    </span>
-                    <span class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
-                            href="epsdisposal.html">
-                            EPS Disposal
-                            <!-- <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i> -->
-                        </a>
+                        </span>
+                        <span class="pb-3">
+                            <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
+                                href="toprated.html">
+                                Top Rated Products
+                                <!-- <i class="fa fa-fw fa-chevron-circle-down mt-1"></i> -->
+                            </a>
 
-                    </span>
-                    <span class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="jutebag.html">
-                            Jute Bags
-                            <!-- <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i> -->
-                        </a>
+                        </span>
+                        <span class="pb-3">
+                            <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
+                                href="biscuits.html">
+                                Biscuits
+                                <!-- <i class="fa fa-fw fa-chevron-circle-down mt-1"></i> -->
+                            </a>
 
-                    </span>
-                    <span class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
-                            href="nonwoven.html">
-                            Non Woven Fabric Bag
-                            <!-- <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i> -->
-                        </a>
+                        </span>
+                        <span class="pb-3">
+                            <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
+                                href="epsdisposal.html">
+                                EPS Disposal
+                                <!-- <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i> -->
+                            </a>
 
-                    </span>
-                    <span class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
-                            href="papercups.html">
-                            Paper Cups
-                            <!-- <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i> -->
-                        </a>
-                    </span>
-                    <span class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
-                            href="plasticdisposal.html">
-                            Plastic Disposal
-                            <!-- <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i> -->
-                        </a>
+                        </span>
+                        <span class="pb-3">
+                            <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
+                                href="jutebag.html">
+                                Jute Bags
+                                <!-- <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i> -->
+                            </a>
 
-                    </span>
-                    <span class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
-                            href="silverfoil.html">
-                            Silver Foil
-                            <!-- <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i> -->
-                        </a>
+                        </span>
+                        <span class="pb-3">
+                            <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
+                                href="nonwoven.html">
+                                Non Woven Fabric Bag
+                                <!-- <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i> -->
+                            </a>
 
-                    </span>
-                    <span class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
-                            href="sugarbagasse.html">
-                            Sugar Bagasse Disposal
-                            <!-- <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i> -->
-                        </a>
+                        </span>
+                        <span class="pb-3">
+                            <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
+                                href="papercups.html">
+                                Paper Cups
+                                <!-- <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i> -->
+                            </a>
+                        </span>
+                        <span class="pb-3">
+                            <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
+                                href="plasticdisposal.html">
+                                Plastic Disposal
+                                <!-- <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i> -->
+                            </a>
 
-                    </span>
-                </ul>
-            </div>
+                        </span>
+                        <span class="pb-3">
+                            <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
+                                href="silverfoil.html">
+                                Silver Foil
+                                <!-- <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i> -->
+                            </a>
 
+                        </span>
+                        <span class="pb-3">
+                            <a class="collapsed d-flex justify-content-between h3 text-decoration-none"
+                                href="sugarbagasse.html">
+                                Sugar Bagasse Disposal
+                                <!-- <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i> -->
+                            </a>
 
-            <div class="col-lg-9">
-                <div class="row">
-
-                    <div class="col-md-6 pb-4">
-                        <div class="d-flex">
-                            <select class="form-control">
-                                <option>Featured</option>
-                                <option>A to Z</option>
-                                <option>Item</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="card mb-4 product-wap rounded-0" id="biscuitcards">
-                            <div class="card rounded-0" id="pcard">
-                                <img class="card-img rounded-0 img-fluid" src="./images/Cream-Biscuit-002-300x300.png">
-
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none" id="biscuit1">Cream
-                                    Biscuit</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <!-- <li>M/L/X/XL</li> -->
-                                    <li class="pt-2">
-                                        <span
-                                            class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <div class="buttons1" style="display: flex-inline;">
-                                    <button class="readmore">
-                                        Read More
-                                    </button>
-                                    <button class="inquire">
-                                        Send Inquiry
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card mb-4 product-wap rounded-0" id="biscuitcards">
-                            <div class="card rounded-0" id="pcard">
-                                <img class="card-img rounded-0 img-fluid" src="./images/EPS-Tray-002-300x300.png">
-
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none" id="biscuit2">EPS Disposable
-                                    Tray</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <!-- <li>M/L/X/XL</li> -->
-                                    <li class="pt-2">
-                                        <span
-                                            class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <div class="buttons1" style="display: flex-inline;">
-                                    <button class="readmore">
-                                        Read More
-                                    </button>
-                                    <button class="inquire">
-                                        Send Inquiry
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card mb-4 product-wap rounded-0" id="biscuitcards">
-                            <div class="card rounded-0" id="pcard">
-                                <img class="card-img rounded-0 img-fluid"
-                                    src="./images/Silver-Foil-Roll-003-300x300.png">
-
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none" id="biscuit3">Silver Foil
-                                    Roll</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <!-- <li>M/L/X/XL</li> -->
-                                    <li class="pt-2">
-                                        <span
-                                            class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <div class="buttons1" style="display: flex-inline;">
-                                    <button class="readmore">
-                                        Read More
-                                    </button>
-                                    <button class="inquire">
-                                        Send Inquiry
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card mb-4 product-wap rounded-0" id="biscuitcards">
-                            <div class="card rounded-0" id="pcard">
-                                <img class="card-img rounded-0 img-fluid"
-                                    src="./images/Non-Woven-U-Cut-Bag-001-300x300.png">
-
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none" id="biscuit4">U-Cut Bag</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <!-- <li>M/L/X/XL</li> -->
-                                    <li class="pt-2">
-                                        <span
-                                            class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <div class="buttons1" style="display: flex-inline;">
-                                    <button class="readmore">
-                                        Read More
-                                    </button>
-                                    <button class="inquire">
-                                        Send Inquiry
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card mb-4 product-wap rounded-0" id="biscuitcards">
-                            <div class="card rounded-0" id="pcard">
-                                <img class="card-img rounded-0 img-fluid"
-                                    src="./images/Milk-Gulcose-Biscuit-001-300x300.png">
-
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none" id="biscuit5">
-                                    Glucose Biscuit</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <!-- <li>M/L/X/XL</li> -->
-                                    <li class="pt-2">
-                                        <span
-                                            class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <div class="buttons1" style="display: flex-inline;">
-                                    <button class="readmore">
-                                        Read More
-                                    </button>
-                                    <button class="inquire">
-                                        Send Inquiry
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card mb-4 product-wap rounded-0" id="biscuitcards">
-                            <div class="card rounded-0" id="pcard">
-                                <img class="card-img rounded-0 img-fluid"
-                                    src="./images/Nice-Coconut-Biscuit-001-300x300.png">
-
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none" id="biscuit6">Nice
-                                    Coconut</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <!-- <li>M/L/X/XL</li> -->
-                                    <li class="pt-2">
-                                        <span
-                                            class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <div class="buttons1" style="display: flex-inline;">
-                                    <button class="readmore">
-                                        Read More
-                                    </button>
-                                    <button class="inquire">
-                                        Send Inquiry
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card mb-4 product-wap rounded-0" id="biscuitcards">
-                            <div class="card rounded-0" id="pcard">
-                                <img class="card-img rounded-0 img-fluid"
-                                    src="./images/Jute-Gunny-Bags-002-150x150.png">
-
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none" id="biscuit7">Jute Gunny
-                                    Bag</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <!-- <li>M/L/X/XL</li> -->
-                                    <li class="pt-2">
-                                        <span
-                                            class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <div class="buttons1" style="display: flex-inline;">
-                                    <button class="readmore">
-                                        Read More
-                                    </button>
-                                    <button class="inquire">
-                                        Send Inquiry
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card mb-4 product-wap rounded-0" id="biscuitcards">
-                            <div class="card rounded-0" id="pcard">
-                                <img class="card-img rounded-0 img-fluid" src="./images/Plastic-Glass-003-150x150.png">
-
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none" id="biscuit8">Disposable
-                                    Glass</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <!-- <li>M/L/X/XL</li> -->
-                                    <li class="pt-2">
-                                        <span
-                                            class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <div class="buttons1" style="display: flex-inline;">
-                                    <button class="readmore">
-                                        Read More
-                                    </button>
-                                    <button class="inquire">
-                                        Send Inquiry
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card mb-4 product-wap rounded-0" id="biscuitcards">
-                            <div class="card rounded-0" id="pcard">
-                                <img class="card-img rounded-0 img-fluid" src="./images/Bagasse-Bowl-002-600x600.png">
-
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none" id="biscuit9">
-                                    Bagasse Bowl</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <!-- <li>M/L/X/XL</li> -->
-                                    <li class="pt-2">
-                                        <span
-                                            class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span
-                                            class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <div class="buttons1" style="display: flex-inline;">
-                                    <button class="readmore">
-                                        Read More
-                                    </button>
-                                    <button class="inquire">
-                                        Send Inquiry
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                        </span>
+                    </ul>
                 </div>
 
-            </div>
 
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card mb-4 product-wap rounded-0" id="biscuitcards">
+                                <div class="card rounded-0" id="pcard">
+                                    <img class="card-img rounded-0 img-fluid"
+                                        src="./images/Cream-Biscuit-002-300x300.png">
+
+                                </div>
+                                <div class="card-body">
+                                    <a href="cream.html" class="h3 text-decoration-none" id="biscuit1">Cream
+                                        Biscuit</a>
+                                    <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                        <!-- <li>M/L/X/XL</li> -->
+                                        <li class="pt-2">
+                                            <span
+                                                class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                        <li>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-muted fa fa-star"></i>
+                                            <i class="text-muted fa fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <div class="buttons1" style="display: flex-inline;">
+                                        <button class="readmore"><a href="cream.html" class="read">
+                                                Read More
+                                            </a></button>
+                                        <button class="inquire" onclick="toggle()">
+                                            Send Inquiry
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card mb-4 product-wap rounded-0" id="biscuitcards">
+                                <div class="card rounded-0" id="pcard">
+                                    <img class="card-img rounded-0 img-fluid" src="./images/EPS-Tray-002-300x300.png">
+
+                                </div>
+                                <div class="card-body">
+                                    <a href="epsdisposal.html" class="h3 text-decoration-none" id="biscuit2">EPS
+                                        Disposable
+                                        Tray</a>
+                                    <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                        <!-- <li>M/L/X/XL</li> -->
+                                        <li class="pt-2">
+                                            <span
+                                                class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                        <li>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-muted fa fa-star"></i>
+                                            <i class="text-muted fa fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <div class="buttons1" style="display: flex-inline;">
+                                        <button class="readmore"><a href="epsdisposal.html" class="read">
+                                                Read More
+                                            </a></button>
+                                        <button class="inquire" onclick="toggle()">
+                                            Send Inquiry
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card mb-4 product-wap rounded-0" id="biscuitcards">
+                                <div class="card rounded-0" id="pcard">
+                                    <img class="card-img rounded-0 img-fluid"
+                                        src="./images/Silver-Foil-Roll-003-300x300.png">
+
+                                </div>
+                                <div class="card-body">
+                                    <a href="rollsf.html" class="h3 text-decoration-none" id="biscuit3">Silver Foil
+                                        Roll</a>
+                                    <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                        <!-- <li>M/L/X/XL</li> -->
+                                        <li class="pt-2">
+                                            <span
+                                                class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                        <li>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-muted fa fa-star"></i>
+                                            <i class="text-muted fa fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <div class="buttons1" style="display: flex-inline;">
+                                        <button class="readmore"><a href="rollsf.html" class="read">
+                                                Read More
+                                            </a></button>
+                                        <button class="inquire" onclick="toggle()">
+                                            Send Inquiry
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card mb-4 product-wap rounded-0" id="biscuitcards">
+                                <div class="card rounded-0" id="pcard">
+                                    <img class="card-img rounded-0 img-fluid"
+                                        src="./images/Non-Woven-U-Cut-Bag-001-300x300.png">
+
+                                </div>
+                                <div class="card-body">
+                                    <a href="ucut.html" class="h3 text-decoration-none" id="biscuit4">U-Cut Bag</a>
+                                    <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                        <!-- <li>M/L/X/XL</li> -->
+                                        <li class="pt-2">
+                                            <span
+                                                class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                        <li>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-muted fa fa-star"></i>
+                                            <i class="text-muted fa fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <div class="buttons1" style="display: flex-inline;">
+                                        <button class="readmore"><a href="ucut.html" class="read">
+                                                Read More
+                                            </a></button>
+                                        <button class="inquire" onclick="toggle()">
+                                            Send Inquiry
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card mb-4 product-wap rounded-0" id="biscuitcards">
+                                <div class="card rounded-0" id="pcard">
+                                    <img class="card-img rounded-0 img-fluid"
+                                        src="./images/Milk-Gulcose-Biscuit-001-300x300.png">
+
+                                </div>
+                                <div class="card-body">
+                                    <a href="milkglucose.html" class="h3 text-decoration-none" id="biscuit5">
+                                        Glucose Biscuit</a>
+                                    <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                        <!-- <li>M/L/X/XL</li> -->
+                                        <li class="pt-2">
+                                            <span
+                                                class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                        <li>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-muted fa fa-star"></i>
+                                            <i class="text-muted fa fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <div class="buttons1" style="display: flex-inline;">
+                                        <button class="readmore"><a href="milkglucose.html" class="read">
+                                                Read More
+                                            </a></button>
+                                        <button class="inquire" onclick="toggle()">
+                                            Send Inquiry
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card mb-4 product-wap rounded-0" id="biscuitcards">
+                                <div class="card rounded-0" id="pcard">
+                                    <img class="card-img rounded-0 img-fluid"
+                                        src="./images/Nice-Coconut-Biscuit-001-300x300.png">
+
+                                </div>
+                                <div class="card-body">
+                                    <a href="nice.html" class="h3 text-decoration-none" id="biscuit6">Nice
+                                        Coconut</a>
+                                    <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                        <!-- <li>M/L/X/XL</li> -->
+                                        <li class="pt-2">
+                                            <span
+                                                class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                        <li>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-muted fa fa-star"></i>
+                                            <i class="text-muted fa fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <div class="buttons1" style="display: flex-inline;">
+                                        <button class="readmore"><a href="nice.html" class="read">
+                                                Read More
+                                            </a></button>
+                                        <button class="inquire" onclick="toggle()">
+                                            Send Inquiry
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card mb-4 product-wap rounded-0" id="biscuitcards">
+                                <div class="card rounded-0" id="pcard">
+                                    <img class="card-img rounded-0 img-fluid"
+                                        src="./images/Jute-Gunny-Bags-002-150x150.png">
+
+                                </div>
+                                <div class="card-body">
+                                    <a href="gunny.html" class="h3 text-decoration-none" id="biscuit7">Jute Gunny
+                                        Bag</a>
+                                    <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                        <!-- <li>M/L/X/XL</li> -->
+                                        <li class="pt-2">
+                                            <span
+                                                class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                        <li>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-muted fa fa-star"></i>
+                                            <i class="text-muted fa fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <div class="buttons1" style="display: flex-inline;">
+                                        <button class="readmore"><a href="gunny.html" class="read">
+                                                Read More
+                                            </a></button>
+                                        <button class="inquire" onclick="toggle()">
+                                            Send Inquiry
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card mb-4 product-wap rounded-0" id="biscuitcards">
+                                <div class="card rounded-0" id="pcard">
+                                    <img class="card-img rounded-0 img-fluid"
+                                        src="./images/Plastic-Glass-003-150x150.png">
+
+                                </div>
+                                <div class="card-body">
+                                    <a href="glasspd.html" class="h3 text-decoration-none" id="biscuit8">Disposable
+                                        Glass</a>
+                                    <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                        <!-- <li>M/L/X/XL</li> -->
+                                        <li class="pt-2">
+                                            <span
+                                                class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                        <li>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-muted fa fa-star"></i>
+                                            <i class="text-muted fa fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <div class="buttons1" style="display: flex-inline;">
+                                        <button class="readmore"><a href="glasspd.html" class="read">
+                                                Read More
+                                            </a></button>
+                                        <button class="inquire" onclick="toggle()">
+                                            Send Inquiry
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card mb-4 product-wap rounded-0" id="biscuitcards">
+                                <div class="card rounded-0" id="pcard">
+                                    <img class="card-img rounded-0 img-fluid"
+                                        src="./images/Bagasse-Bowl-002-600x600.png">
+
+                                </div>
+                                <div class="card-body">
+                                    <a href="sugarbowl.html" class="h3 text-decoration-none" id="biscuit9">
+                                        Bagasse Bowl</a>
+                                    <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                        <!-- <li>M/L/X/XL</li> -->
+                                        <li class="pt-2">
+                                            <span
+                                                class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                            <span
+                                                class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                        <li>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-warning fa fa-star"></i>
+                                            <i class="text-muted fa fa-star"></i>
+                                            <i class="text-muted fa fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <div class="buttons1" style="display: flex-inline;">
+                                        <button class="readmore"><a href="sugarbowl.html" class="read">
+                                                Read More
+                                            </a></button>
+                                        <button class="inquire" onclick="toggle()">
+                                            Send Inquiry
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
         </div>
+        <!-- End Content -->
+
+
+        <!-- Start Brands -->
+
     </div>
-    <!-- End Content -->
-
-
-    <!-- Start Brands -->
-
-
     <!-- Start Footer -->
     <div class="footer-wrapper">
         <div id="footer" class="footer-1">
@@ -687,8 +717,37 @@
         </div>
     </div>
 
-    </div>
+    <!-- </div> -->
     <!-- End Footer -->
+    <!-- Start Popup-->
+    <div id="popup" class="popup">
+        <img src="./images/mailimg2.png" class="mailicon">
+
+        <form>
+            <h2>Inquire Now</h2>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="number" placeholder="Phone Number">
+            <textarea type="textarea" cols="30" rows="4" placeholder="Your Message"></textarea>
+            <button> Send</button>
+        </form>
+        <a href="#" onclick="toggle()">Close</a>
+
+
+    </div>
+    <script type="text/javascript">
+        function toggle() {
+            var blur1 = document.getElementById("blur");
+
+            blur1.classList.toggle('active');
+
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active');
+
+
+        }
+    </script>
+    <!--End Popup-->
 
     <!-- Start Script -->
     <script src="assets/js/jquery-1.11.0.min.js"></script>
