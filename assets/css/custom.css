@@ -11,6 +11,7 @@ body {
     background-color: transparent;
     width: 300px;
     height: 355px;
+    
     border: 1px solid #f1f1f1;
     perspective: 1000px;
     /* Remove this if you don't want the 3D effect */
@@ -26,10 +27,10 @@ body {
     transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
+/* Do an horizontal flip when you move the mouse over the flip box container 
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-}
+}*/
 
 /* Position the front and back side */
 .flip-card-front,
@@ -47,6 +48,11 @@ body {
     /* background-color: #bbb; */
     color: black;
 }
+
+.flip-card-front a{
+    text-decoration: none;
+}
+
 
 /* Style the back side */
 .flip-card-back {
@@ -66,6 +72,7 @@ body {
 
 #fliphead {
     font-family: 'EB Garamond', serif;
+    
     /* font-weight: 600; */
 }
 
@@ -356,7 +363,7 @@ li {
     text-align: left;
 }
 
-.sibtn {
+.inquire {
     margin-left: 200px;
     margin-right: 200px;
     border-radius: 10px;
@@ -365,7 +372,7 @@ li {
     border: none;
 }
 
-.sibtn:hover {
+.inquire:hover {
     background-color: rgb(84, 84, 220);
 }
 
