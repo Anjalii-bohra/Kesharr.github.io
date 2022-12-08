@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/templatemo.css">
     <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/popup.css">
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
@@ -25,6 +26,7 @@
 </head>
 
 <body>
+    <div id="blur">
     <!-- Start Top Nav -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
         <div class="container text-light">
@@ -204,8 +206,9 @@
                             </div>
                             <div class="row pb-3">
                                 <div class="col d-grid">
-                                    <button type="submit" class="sibtn" name="submit" value="Inquiry">Send
-                                        Inquiry</button>
+                                    <button class="inquire" onclick="toggle()" id="sibtn">
+                                        Send Inquiry
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -332,7 +335,7 @@
     </section>
     <!-- End Article -->
 
-
+</div>
     <!-- Start Footer -->
     <div class="footer-wrapper">
         <div id="footer" class="footer-1">
@@ -457,7 +460,35 @@
 
     </div>
     <!-- End Footer -->
+  <!-- Start Popup-->
+  <div id="popup" class="popup">
+    <img src="./images/mailimg2.png" class="mailicon">
 
+    <form>
+        <h2>Inquire Now</h2>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <input type="number" placeholder="Phone Number">
+        <textarea type="textarea" cols="30" rows="4" placeholder="Your Message"></textarea>
+        <button> Send</button>
+    </form>
+    <a href="#" onclick="toggle()">Close</a>
+
+
+</div>
+<script type="text/javascript">
+    function toggle() {
+        var blur1 = document.getElementById("blur");
+
+        blur1.classList.toggle('active');
+
+        var popup = document.getElementById('popup');
+        popup.classList.toggle('active');
+
+
+    }
+</script>
+<!--End Popup-->
     <!-- Start Script -->
     <script src="assets/js/jquery-1.11.0.min.js"></script>
     <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
