@@ -37,7 +37,7 @@ a,
 label,
 input,
 div {
-  font-family: 'Alexandria', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px !important;
   font-weight: 300 !important;
 }
@@ -98,7 +98,7 @@ div {
 
 .btn-success {
   background-color: #59ab6e !important;
-  border-color:  #3b5998  !important;
+  border-color: #3b5998 !important;
 }
 
 .pagination .page-link:hover {
