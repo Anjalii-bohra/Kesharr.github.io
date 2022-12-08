@@ -156,6 +156,21 @@ body {
     flex-wrap: wrap;
 }
 
+#bestseller a{
+    text-decoration: none;
+    color: black;
+}
+
+#bestseller a h4 {
+    font-family: 'EB Garamond', serif;
+}
+
+#bestseller a h4 p{
+    font-family: 'Alexandria', sans-serif;
+}
+
+
+
 .cardbs {
     background: whitesmoke;
     width: 300px;
