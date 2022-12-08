@@ -337,7 +337,7 @@ li {
 .inquire {
     font-family: 'Poppins', sans-serif;
     margin-top: 12px;
-    font-size: 15px;
+    font-size: 13px;
     padding: 6px;
     border: none;
     border-radius: 12%;
@@ -354,7 +354,8 @@ li {
 }
 
 .inquire {
-    margin-left: 6px;
+    font-size: 14px;
+    /* margin-left: 6px; */
 }
 
 #biscuitcards {
