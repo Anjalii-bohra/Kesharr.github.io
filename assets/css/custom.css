@@ -72,8 +72,8 @@ body {
 
 #fliphead {
     font-family: 'EB Garamond', serif;
-
-    /* font-weight: 600; */
+    text-decoration: underline !important;
+    font-weight: 500;
 }
 
 /* #fp1 {
@@ -89,7 +89,11 @@ body {
     font-weight: 500 !important;
 }
 
-
+.img-fluid {
+    width: 500px;
+    height: 450px;
+    align-self: center;
+}
 
 #bestquality {
     font-family: 'Great Vibes', cursive;
@@ -97,6 +101,23 @@ body {
     font-weight: 200 !important;
     color: rgb(35, 35, 160);
 }
+
+
+#EPS {
+    font-size: 65px !important;
+    color: rgb(35, 35, 160);
+    font-family: 'Kaushan Script', cursive;
+    padding-left: 5%;
+    /* padding-top: px; */
+}
+
+#food {
+    font-size: 75px !important;
+    color: rgb(35, 35, 160);
+    font-family: 'Kaushan Script', cursive;
+    padding: none;
+}
+
 
 #sub {
     padding-left: 10%;
@@ -111,40 +132,31 @@ body {
 
 #sub3 {
     font-family: 'Poppins', sans-serif;
-    padding-left: 20%;
+    padding-left: 15%;
+    padding-top: 10px;
 }
 
-#EPS {
-    color: rgb(35, 35, 160);
-    font-family: 'Kaushan Script', cursive;
-    padding-left: 5%;
-    padding-top: 10%;
-}
 
-#food {
-    color: rgb(35, 35, 160);
-    font-family: 'Kaushan Script', cursive;
-    padding-left: 20%;
-    padding-top: 5%;
-
+#fluid1 {
+    padding-left: 10%;
 }
 
 #fluid2 {
-    padding-bottom: 30%;
+    padding-bottom: 40%;
     justify-content: center;
+    padding-left: 10%;
     height: 300px;
 
 }
 
-.img-fluid {
-    width: 500px;
-    height: 450px;
-    align-self: center;
-}
+/* #fluid3 {
+    width: 100%;
+    height: 100%;
+} */
 
-.fluid1 {
-    height: 40%;
-    width: 50%;
+
+#epsdisp {
+    padding: 0rem !important;
 }
 
 /* end */
@@ -156,7 +168,7 @@ body {
     flex-wrap: wrap;
 }
 
-#bestseller a{
+#bestseller a {
     text-decoration: none;
     color: black;
 }
@@ -165,7 +177,7 @@ body {
     font-family: 'EB Garamond', serif;
 }
 
-#bestseller a h4 p{
+#bestseller a h4 p {
     font-family: 'Alexandria', sans-serif;
 }
 
@@ -276,12 +288,18 @@ body {
     font-family: 'Charm', cursive;
     font-size: 55px !important;
     font-weight: 500 !important;
-    color: red;
+    color: blue;
     text-decoration: underline;
 
 }
 
-.btn {
+.h10:hover {
+    color: red;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btnmain {
     padding: 10px;
     color: white;
     background-color: black;
@@ -291,7 +309,7 @@ body {
 
 }
 
-.btn:hover {
+#btnmain:hover {
     color: white;
     transition: all 0.5s ease;
     transform: scale(1.05);
@@ -586,22 +604,23 @@ li {
     touch-action: manipulation;
     width: 100%;
     will-change: transform;
-  }
-  
-  .explore-more:disabled {
+}
+
+.explore-more:disabled {
     pointer-events: none;
-  }
-  
-  .explore-more:hover {
+}
+
+.explore-more:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
-  }
-  
-  .explore-more:active {
+}
+
+.explore-more:active {
     box-shadow: none;
     transform: translateY(0);
-  }
-  .explore-more > a{
+}
+
+.explore-more>a {
     text-decoration: none;
     color: #fff;
-  }
+}
