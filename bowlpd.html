@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="assets/css/templatemo.css">
     <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/popup.css">
+
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
@@ -25,288 +27,297 @@
 </head>
 
 <body>
-    <!-- Start Top Nav -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
-        <div class="container text-light">
-            <div class="w-100 d-flex justify-content-between">
-                <div>
-                    <i class="fa fa-envelope mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none"
-                        href="mailto:sales@kesharenterprises.com">sales@kesharenterprises.com</a>
-                    <i class="fa fa-phone mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none"
-                        href="tel:+91-9904399998">+91-9904399998</a>
-                </div>
-                <div>
-                    <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i
-                            class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i
-                            class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://twitter.com/" target="_blank"><i
-                            class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i
-                            class="fab fa-linkedin fa-sm fa-fw"></i></a>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <!-- Close Top Nav -->
-
-
-    <!-- Header -->
-
-    <!-- Close Header -->
-
-    <!-- Modal -->
-    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="w-100 pt-1 mb-5 text-right">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <form action="" method="get" class="modal-content modal-body border-0 p-0">
-                <div class="input-group mb-2">
-                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
-                    <button type="submit" class="input-group-text bg-success text-light">
-                        <i class="fa fa-fw fa-search text-white"></i>
-                    </button>
-                </div>
-            </form>
-        </div>
-    </div>
-
-
-
-    <!-- Open Content -->
-    <section class="bg-light">
-        <div class="container pb-5">
-            <div class="row">
-                <div class="col-lg-5 mt-5">
-                    <div class="card mb-3">
-                        <img class="card-img img-fluid" src="./images/Plastic-Bowl-001-300x300.png" alt="Card image cap"
-                            id="product-detail">
+    <div id="blur">
+        <!-- Start Top Nav -->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+            <div class="container text-light">
+                <div class="w-100 d-flex justify-content-between">
+                    <div>
+                        <i class="fa fa-envelope mx-2"></i>
+                        <a class="navbar-sm-brand text-light text-decoration-none"
+                            href="mailto:sales@kesharenterprises.com">sales@kesharenterprises.com</a>
+                        <i class="fa fa-phone mx-2"></i>
+                        <a class="navbar-sm-brand text-light text-decoration-none"
+                            href="tel:+91-9904399998">+91-9904399998</a>
                     </div>
-                    <div class="row">
-                        <!--Start Controls-->
-                        <div class="col-1 align-self-center">
-                        </div>
-                        <!--End Controls-->
-                        <!--Start Carousel Wrapper-->
-                        <div id="multi-item-example" class="col-10 carousel slide carousel-multi-item"
-                            data-bs-ride="carousel">
-                            <!--Start Slides-->
-                            <div class="carousel-inner product-links-wap" role="listbox">
+                    <div>
+                        <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i
+                                class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                        <a class="text-light" href="https://www.instagram.com/" target="_blank"><i
+                                class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                        <a class="text-light" href="https://twitter.com/" target="_blank"><i
+                                class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                        <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i
+                                class="fab fa-linkedin fa-sm fa-fw"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Close Top Nav -->
 
-                                <!--First slide-->
-                                <div class="carousel-item active">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid"
-                                                    src="./images/Plastic-Bowl-001-300x300.png" alt="Product Image 1"
-                                                    id="swipe">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid"
-                                                    src="./images/Plastic-Bowl-003-150x150.png" alt="Product Image 2"
-                                                    id="swipe">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="./images/asset 37.png"
-                                                    alt="Product Image 3" id="swipe">
-                                            </a>
+
+        <!-- Header -->
+
+        <!-- Close Header -->
+
+        <!-- Modal -->
+        <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="w-100 pt-1 mb-5 text-right">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                        <button type="submit" class="input-group-text bg-success text-light">
+                            <i class="fa fa-fw fa-search text-white"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+        <!-- Open Content -->
+        <section class="bg-light">
+            <div class="container pb-5">
+                <div class="row">
+                    <div class="col-lg-5 mt-5">
+                        <div class="card mb-3">
+                            <img class="card-img img-fluid" src="./images/Plastic-Bowl-001-300x300.png"
+                                alt="Card image cap" id="product-detail">
+                        </div>
+                        <div class="row">
+                            <!--Start Controls-->
+                            <div class="col-1 align-self-center">
+                            </div>
+                            <!--End Controls-->
+                            <!--Start Carousel Wrapper-->
+                            <div id="multi-item-example" class="col-10 carousel slide carousel-multi-item"
+                                data-bs-ride="carousel">
+                                <!--Start Slides-->
+                                <div class="carousel-inner product-links-wap" role="listbox">
+
+                                    <!--First slide-->
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <a href="#">
+                                                    <img class="card-img img-fluid"
+                                                        src="./images/Plastic-Bowl-001-300x300.png"
+                                                        alt="Product Image 1" id="swipe">
+                                                </a>
+                                            </div>
+                                            <div class="col-4">
+                                                <a href="#">
+                                                    <img class="card-img img-fluid"
+                                                        src="./images/Plastic-Bowl-003-150x150.png"
+                                                        alt="Product Image 2" id="swipe">
+                                                </a>
+                                            </div>
+                                            <div class="col-4">
+                                                <a href="#">
+                                                    <img class="card-img img-fluid" src="./images/asset 37.png"
+                                                        alt="Product Image 3" id="swipe">
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
+                                    <!--/.First slide-->
                                 </div>
-                                <!--/.First slide-->
+                                <!--End Slides-->
                             </div>
-                            <!--End Slides-->
+                            <!--End Carousel Wrapper-->
+                            <!--Start Controls-->
+                            <div class="col-1 align-self-center">
+                            </div>
+                            <!--End Controls-->
                         </div>
-                        <!--End Carousel Wrapper-->
-                        <!--Start Controls-->
-                        <div class="col-1 align-self-center">
-                        </div>
-                        <!--End Controls-->
                     </div>
-                </div>
-                <!-- col end -->
-                <div class="col-lg-7 mt-5">
-                    <div class="card">
-                        <div class="card-body">
-                            <h1 class="h2">Plastic Bowls</h1>
-                            <p class="py-2">
-                                <i class="fa fa-star text-warning"></i>
-                                <i class="fa fa-star text-warning"></i>
-                                <i class="fa fa-star text-warning"></i>
-                                <i class="fa fa-star text-warning"></i>
-                                <i class="fa fa-star text-secondary"></i>
+                    <!-- col end -->
+                    <div class="col-lg-7 mt-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h1 class="h2">Plastic Bowls</h1>
+                                <p class="py-2">
+                                    <i class="fa fa-star text-warning"></i>
+                                    <i class="fa fa-star text-warning"></i>
+                                    <i class="fa fa-star text-warning"></i>
+                                    <i class="fa fa-star text-warning"></i>
+                                    <i class="fa fa-star text-secondary"></i>
+                                    <br>
+                                    <span class="list-inline-item text-dark">Rating 4.0</span>
+                                </p>
+                                <div class="description">
+                                    <h5><b>Description:</b></h5>
+                                    <p>In the present age and time, it is design and quality which customers focus on
+                                        while
+                                        buying plastic disposables bowls which is why we, have started bringing forward
+                                        a
+                                        quality collection in many designs. Our range of Plastic Disposable Cups,
+                                        Plastic
+                                        Drinking Cups and Customized Plastic Cups, are made with recyclable plastic. We
+                                        guarantee our customers regarding quality of our offerings because our people
+                                        follow
+                                        quality standards on every production level.
+                                        These environmentally friendly products are healthier for your guests and the
+                                        planet. These Bowls contain no plastic or wax lining, are microwavable and
+                                        freezable. They can be used for both hot and cold items, while being oil and cut
+                                        resistant, offering reliable strength and support for most foods. When you serve
+                                        foods in compostable Bowls made of crop fibres you are assured of using a 100%
+                                        natural product. Eco-ware compostable dinner Bowls are fully disposable and
+                                        environmentally conscious. These generously sized bowls allow you to host a
+                                        large
+                                        event and enjoy a fast, guilt-free clean-up afterward. All Eco-ware products are
+                                        freezer and microwave-friendly, these sturdy disposable bowls are perfect for
+                                        any
+                                        occasion. Their undyed appearance complements birthday parties, picnics, poojas,
+                                        special events, or just everyday household use.
+                                    </p>
+                                </div>
                                 <br>
-                                <span class="list-inline-item text-dark">Rating 4.0</span>
-                            </p>
-                            <div class="description">
-                                <h5><b>Description:</b></h5>
-                                <p>In the present age and time, it is design and quality which customers focus on while
-                                    buying plastic disposables bowls which is why we, have started bringing forward a
-                                    quality collection in many designs. Our range of Plastic Disposable Cups, Plastic
-                                    Drinking Cups and Customized Plastic Cups, are made with recyclable plastic. We
-                                    guarantee our customers regarding quality of our offerings because our people follow
-                                    quality standards on every production level.
-                                    These environmentally friendly products are healthier for your guests and the
-                                    planet. These Bowls contain no plastic or wax lining, are microwavable and
-                                    freezable. They can be used for both hot and cold items, while being oil and cut
-                                    resistant, offering reliable strength and support for most foods. When you serve
-                                    foods in compostable Bowls made of crop fibres you are assured of using a 100%
-                                    natural product. Eco-ware compostable dinner Bowls are fully disposable and
-                                    environmentally conscious. These generously sized bowls allow you to host a large
-                                    event and enjoy a fast, guilt-free clean-up afterward. All Eco-ware products are
-                                    freezer and microwave-friendly, these sturdy disposable bowls are perfect for any
-                                    occasion. Their undyed appearance complements birthday parties, picnics, poojas,
-                                    special events, or just everyday household use.
-                                </p> </div>
-                            <br>
-                            <div class="features">
-                                <h5><b>Features:</b></h5>
-                                <ul class="list">
-                                    <li>Completely Recyclable.</li>
-                                    <li>Temperature Resistant.</li>
-                                    <li>100% recyclable.</li>
-                                    <li>A wide range of colours including black, green, blue, and, of course, clear.
-                                    </li>
-                                    <li>Optimum protection for your products.</li>
-                                    <li>Suitable for contact with food products.</li>
-                                </ul>
-                            </div>
-                            <br>
-                            <div class="extra">
-                              <ul class="list-inline" id="proul">
-                                    <li class="list-inline-item">
-                                        <h6 class="text-dark"><b>SKU:</b></h6>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <p class="text-danger"> PD001</p>
-                                    </li>
-                                </ul>
+                                <div class="features">
+                                    <h5><b>Features:</b></h5>
+                                    <ul class="list">
+                                        <li>Completely Recyclable.</li>
+                                        <li>Temperature Resistant.</li>
+                                        <li>100% recyclable.</li>
+                                        <li>A wide range of colours including black, green, blue, and, of course, clear.
+                                        </li>
+                                        <li>Optimum protection for your products.</li>
+                                        <li>Suitable for contact with food products.</li>
+                                    </ul>
+                                </div>
+                                <br>
+                                <div class="extra">
+                                    <ul class="list-inline" id="proul">
+                                        <li class="list-inline-item">
+                                            <h6 class="text-dark"><b>SKU:</b></h6>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <p class="text-danger"> PD001</p>
+                                        </li>
+                                    </ul>
 
-                                <ul class="list-inline" id="proul">
-                                    <li class="list-inline-item">
-                                        <h6 class="text-dark"><b>CATEGORIES:</b></h6>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <p class="text-danger">Plastic Bowls</p>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="row pb-3">
-                                <div class="col d-grid">
-                                    <button type="submit" class="sibtn" name="submit" value="Inquiry">Send
-                                        Inquiry</button>
+                                    <ul class="list-inline" id="proul">
+                                        <li class="list-inline-item">
+                                            <h6 class="text-dark"><b>CATEGORIES:</b></h6>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <p class="text-danger">Plastic Bowls</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="row pb-3">
+                                    <div class="col d-grid">
+                                        <button class="inquire" onclick="toggle()" id="sibtn">
+                                            Send Inquiry
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Close Content -->
+        </section>
+        <!-- Close Content -->
 
-    <!-- Start Article -->
-    <section class="py-5">
-        <div class="container">
-            <div class="row text-left p-2 pb-3">
-                <h4 style="text-align: center;">Related Products</h4>
+        <!-- Start Article -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row text-left p-2 pb-3">
+                    <h4 style="text-align: center;">Related Products</h4>
+                </div>
+
+                <!--Start Carousel Wrapper-->
+                <div id="carousel-related-product">
+
+                    <div class="p-2 pb-3">
+                        <div class="product-wap card rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="./images/Plastic-Glass-004-300x300.png"
+                                    id="related">
+                            </div>
+                            <div class="card-body">
+                                <a href="glasspd.html" class="h3 text-decoration-none">Plastic Glass</a>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <div class="col d-grid">
+                                    <button type="submit" class="rmbtn" name="submit" value="Inquiry">
+                                        <a href="glasspd.html" id="foottag">Read More</a> </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-2 pb-3">
+                        <div class="product-wap card rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid"
+                                    src="./images/Plastic-Punnet-Boxe-002-150x150.png" id="related">
+                            </div>
+                            <div class="card-body">
+                                <a href="punnetpd.html" class="h3 text-decoration-none">Punnet Boxes</a>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <div class="col d-grid">
+                                    <button type="submit" class="rmbtn" name="submit" value="Inquiry"><a
+                                            href="punnetpd.html" id="foottag">Read More</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-2 pb-3">
+                        <div class="product-wap card rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="./images/Plastic-Tray-002-150x150.png"
+                                    id="related">
+                            </div>
+                            <div class="card-body">
+                                <a href="mealtraypd.html" class="h3 text-decoration-none">Trays</a>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <div class="col d-grid">
+                                    <button type="submit" class="rmbtn" name="submit" value="Inquiry"><a
+                                            href="mealtraypd.html" id="foottag">Read More</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
             </div>
+        </section>
+        <!-- End Article -->
 
-            <!--Start Carousel Wrapper-->
-            <div id="carousel-related-product">
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="./images/Plastic-Glass-004-300x300.png"
-                                id="related">
-                        </div>
-                        <div class="card-body">
-                            <a href="glasspd.html" class="h3 text-decoration-none">Plastic Glass</a>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <div class="col d-grid">
-                                <button type="submit" class="rmbtn" name="submit" value="Inquiry">
-                                    <a href="glasspd.html" id="foottag">Read More</a> </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="./images/Plastic-Punnet-Boxe-002-150x150.png"
-                                id="related">
-                        </div>
-                        <div class="card-body">
-                            <a href="punnetpd.html" class="h3 text-decoration-none">Punnet Boxes</a>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <div class="col d-grid">
-                                <button type="submit" class="rmbtn" name="submit" value="Inquiry"><a
-                                        href="punnetpd.html" id="foottag">Read More</a></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="./images/Plastic-Tray-002-150x150.png"
-                                id="related">
-                        </div>
-                        <div class="card-body">
-                            <a href="mealtraypd.html" class="h3 text-decoration-none">Trays</a>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <div class="col d-grid">
-                                <button type="submit" class="rmbtn" name="submit" value="Inquiry"><a
-                                        href="mealtraypd.html" id="foottag">Read More</a></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-
-        </div>
-    </section>
-    <!-- End Article -->
-
-
+    </div>
     <!-- Start Footer -->
     <div class="footer-wrapper">
         <div id="footer" class="footer-1">
@@ -322,11 +333,15 @@
                                             <strong>Address:</strong> <span>Keshar
                                                 Enterprises 2B1, Sarabhai Society, Sarabhai Road, B/H. Pandya Eye
                                                 Hospital,
-                                                Vadodara. Gujarat, India.</span></li>
-                                        <li class="footspace"><i class="fab fa-whatsapp"></i> <strong>Phone:</strong>
+                                                Vadodara. Gujarat, India.</span>
+                                        </li>
+                                        <li class="footspace"><i class="fab fa-whatsapp"></i>
+                                            <strong>Phone:</strong>
                                             <span>+91 99043
-                                                99998</span></li>
-                                        <li class="footspace"><i class="far fa-envelope"></i> <strong>Email:</strong>
+                                                99998</span>
+                                        </li>
+                                        <li class="footspace"><i class="far fa-envelope"></i>
+                                            <strong>Email:</strong>
                                             <span><a
                                                     href="mailto:sales@kesharenterprises.com">sales@kesharenterprises.com</a></span>
                                         </li>
@@ -421,7 +436,8 @@
             <div class="footer-bottom">
                 <div class="container">
                     <div class="footer-left">
-                        <span class="footer-copyright">© copyright 2021 Keshar Enterprises. All Rights Reserved.</span>
+                        <span class="footer-copyright">© copyright 2021 Keshar Enterprises. All Rights
+                            Reserved.</span>
                     </div>
                 </div>
 
@@ -429,9 +445,44 @@
         </div>
     </div>
 
-    </div>
-    <!-- End Footer -->
 
+    <!-- End Footer -->
+    <!-- Start Popup-->
+    <div id="popup" class="popup">
+        <img src="./images/mailimg2.png" class="mailicon">
+
+        <form>
+            <h2>Inquire Now</h2>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="number" placeholder="Phone Number">
+            <textarea type="textarea" cols="30" rows="4" placeholder="Your Message"></textarea>
+            <button> Send</button>
+        </form>
+        <a href="#" onclick="toggle()">Close</a>
+
+
+    </div>
+    <script type="text/javascript">
+        function toggle() {
+            var blur1 = document.getElementById("blur");
+
+            blur1.classList.toggle('active');
+
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active');
+
+
+        }
+    </script>
+    <!--End Popup-->
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- End Script -->
     <!-- Start Script -->
     <script src="assets/js/jquery-1.11.0.min.js"></script>
     <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
