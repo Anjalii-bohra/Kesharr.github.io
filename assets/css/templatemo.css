@@ -115,6 +115,7 @@ div {
 
 #templatemo_nav_top {
   min-height: 40px;
+  background-color: black;
 }
 
 #templatemo_nav_top * {
@@ -142,6 +143,7 @@ nav ul li a {
 /* Hero Carousel */
 #template-mo-zay-hero-carousel {
   background: #efefef !important;
+  padding-top: 8em;
 }
 
 /* Accordion */
