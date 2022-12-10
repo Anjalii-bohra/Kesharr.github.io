@@ -13,6 +13,7 @@ body {
     height: 355px;
 
     border: 1px solid #f1f1f1;
+    border-radius: 10px;
     perspective: 1000px;
     /* Remove this if you don't want the 3D effect */
 }
@@ -25,12 +26,15 @@ body {
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    background: white;
+    border-radius: 10px;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container 
-.flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-}*/
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover  {
+    
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.392);
+}
 
 /* Position the front and back side */
 .flip-card-front,
